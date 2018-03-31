@@ -1,0 +1,6 @@
+if [ -z "$1" ]
+    then
+        echo "hls: No URL provided"
+    else
+    	java -jar /usr/local/HLSDownloader/hls-downloader.jar "$@"
+fi
